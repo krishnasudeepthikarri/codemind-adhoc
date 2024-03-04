@@ -1,0 +1,5 @@
+letter=input()
+lst=list(letter)
+a=set(lst)
+a.remove(',')
+print(len(a))
